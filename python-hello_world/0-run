@@ -1,2 +1,2 @@
 #!/bin/bash
-print()
+./python_script.py
