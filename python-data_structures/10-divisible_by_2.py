@@ -2,13 +2,10 @@
 
 
 def divisible_by_2(my_list=[]):
-    def divisible_by_2(my_list=[]):
-    """Find all multiples of 2 in a list."""
-    multiples = []
-    for i in range(len(my_list)):
-        if my_list[i] % 2 == 0:
-            multiples.append(True)
+    new_list = list()
+    for temp in my_list:
+         if temp % 2 == 0:
+            new_list.append(True)
         else:
-            multiples.append(False)
-
-    return (multiples)
+            new_list.append(False)
+    return new_list
