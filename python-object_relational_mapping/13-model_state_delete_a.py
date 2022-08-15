@@ -22,12 +22,3 @@ if __name__ == "__main__":
         session.delete(state)
     session.commit()
     session.close()
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact G
