@@ -5,5 +5,5 @@ if (myFunction.length === 3) {
 } else if (myFunction > 3) {
   console.log('Arguments found');
 } else {
-  console.log('Argument found');
+  console.log('No argument');
 }
