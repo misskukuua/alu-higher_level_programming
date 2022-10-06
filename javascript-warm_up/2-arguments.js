@@ -1,5 +1,5 @@
 #!/usr/bin/node
-function myFunction ()
+const myFunction = process.argv;
 if (myFunction.length === 3) {
 	console.log('Argument found');
 }
