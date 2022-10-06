@@ -1,8 +1,8 @@
 #!/usr/bin/node
 const myFunction = process.argv;
-if (myFunction.length === 4) {
+if (myFunction.length === 3) {
   console.log('Argument found');
-} else if (myFunction > 4) {
+} else if (myFunction > 3) {
   console.log('Arguments found');
 } else {
   console.log('No argument');
