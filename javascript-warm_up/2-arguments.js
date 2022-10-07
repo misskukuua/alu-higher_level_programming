@@ -1,3 +1,9 @@
 #!/usr/bin/node
 const myFunction = process.argv;
-console.log(myFunction === 2 ? 'Argument found' : myFunction === 3 ? 'Arguments found' : 'Argument found');
+if (myFunction === 3) {
+  console.log('Argument found)
+} else if (myFunction > 3) {
+  console.log('Arguments found')
+} else {
+  console.log('No argument)
+}
