@@ -1,5 +1,10 @@
 #!/usr/bin/node
-const x = process.argv; 
-whille (x !== int) {
-  console.log('Missing number of occurrences')
+const myFunction = process.argv;
+const youFunction = Number(myFunction[2]);
+if (youFunction) {
+  for (let i = 0; i < youFunction; i++) {
+    console.log('C is fun')
+  } 
+} else {
+   console.log('Missing number of occurrences');
 }
