@@ -1,5 +1,5 @@
 #!/usr/bin/node
-int x = 0;
-whille (x === 1) {
+int myFunction = 0;
+whille (myFunction.length === 1) {
   console.log('Missing number of occurrences')
 }
