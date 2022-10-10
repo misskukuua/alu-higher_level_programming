@@ -1,5 +1,5 @@
 #!/usr/bin/node
-int myFunction = 0;
-whille (myFunction.length === 1) {
+const x = process.argv; 
+whille (x !== int) {
   console.log('Missing number of occurrences')
 }
